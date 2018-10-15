@@ -8,6 +8,5 @@ namespace BE
 {
     public class Class1
     {
-       asdfghjkl;
     }
 }
