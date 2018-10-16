@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-   
-    class Stock
+
+    public class Stock
     {
         public int ID { get; set; }
         public string Name { get; set; }
         public Address Address { get; set; }
+        public List<CustomersOrders> CustomersOrders { get; set; }
+        public List<ProvidersOrders> ProvidersOrders { get; set; }
+
 
     }
+        
 }
