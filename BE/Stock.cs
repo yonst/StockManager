@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    public class Provider
+    class Stock
     {
-      
+
     }
 }
