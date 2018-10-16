@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-   
-    class Stock
+
+     public class Stock
     {
         public int ID { get; set; }
         public string Name { get; set; }
