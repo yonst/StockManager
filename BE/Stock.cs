@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Device.Location;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ namespace BE
         public int ID { get; set; }
         public string Name { get; set; }
         public Address Address { get; set; }
+
 
     }
 }
